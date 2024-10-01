@@ -31,25 +31,25 @@ Empiezanuevamente:
 
 
 
-        PCSERVER = "acosme"
-        PASSSEVER = "159357852456"
+        PCSERVER = "DESKTOP-HPLDERT"
+        PASSSEVER = "123"
         SASEVER = "sa"
         LK_ES_FORMATO_ESPANOL = True
         TxtUsuario.Text = "admin"
         txtContrasena.Text = "1234"
-        LK_RUTA_RPT = "D:\Proyectos VisualStudio\Ori\SistemaComercialOri V2.0\WindowsApp1\FormatosCrystal\"
+        LK_RUTA_RPT = "C:\Users\DARLEY\source\repos\SistemaComercialOri V2.0\WindowsApp1\FormatosCrystal\"
 
 
 
         '********************************
-        'PCSERVER = "161.132.47.14"
-        'PASSSEVER = "B]4O7mmD-S3("
-        'SASEVER = "sa"
-        'LK_ES_FORMATO_ESPANOL = False
-        'Dim rutaInstalacion As String = AppDomain.CurrentDomain.BaseDirectory
-        'LK_RUTA_RPT = rutaInstalacion
+        'CSERVER = "161.132.47.14"
+        'ASSSEVER = "B]4O7mmD-S3("
+        'ASEVER = "sa"
+        'K_ES_FORMATO_ESPANOL = False
+        'im rutaInstalacion As String = AppDomain.CurrentDomain.BaseDirectory
+        'K_RUTA_RPT = rutaInstalacion
 
-        ''LK_RUTA_RPT = "D:\Proyectos VisualStudio\Ori\SistemaComercialOri\WindowsApp1\FormatosCrystal\"
+        'K_RUTA_RPT = "D:\Proyectos VisualStudio\Ori\SistemaComercialOri\WindowsApp1\FormatosCrystal\"
 
         ''**********
 
@@ -85,7 +85,7 @@ Empiezanuevamente:
             CERRAR_SESIONES()
             ConexionSQL_Maester()
 
-            'ConexionSQL_Cuentas()
+            ConexionSQL_Cuentas()
 
             ConexionSQL_Imagenes()
 
